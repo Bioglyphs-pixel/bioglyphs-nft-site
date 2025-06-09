@@ -2,7 +2,7 @@
 let isAuthenticated = false;
 let adminNFTsData = [];
 let currentEditingNFT = null;
-const ADMIN_PASSWORD_HASH = 'bioglyphs2025'; // Mot de passe simple pour la démo
+const ADMIN_PASSWORD_HASH = 'bmcaa196mcaa'; // Mot de passe simple pour la démo
 
 // Initialisation de l'interface d'administration
 document.addEventListener('DOMContentLoaded', function() {
