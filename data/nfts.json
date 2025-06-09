@@ -143,5 +143,160 @@
   "opensea_url": "",
   "created_at": "2025-06-09T20:48:06.109082Z",
   "updated_at": "2025-06-09T20:48:06.109082Z"
+},
+  {
+  "id": "bioglyph_008",
+  "name": "Évolution de la Vie Numérique",
+  "description": "Exploration de la complexité émergente à partir de règles simples, où les motifs cellulaires évoluent dans le temps pour former des structures complexes et changeantes",
+  "media": {
+    "animation_url": "https://ipfs.io/ipfs/QmZarhiqKYWmXE3ieERfaUPCYR5VHRBqJfw85xVGZnwEsU",
+    "preview_gif": "https://ipfs.io/ipfs/QmNyWKiZcvD6rstQZEfXkpJQupoYpkHnrh14g1n3NtxZtL",
+    "viewer_html": "https://ipfs.io/ipfs/QmRv6MxKnhposTb1Rqj13ozubJsxFAbDvvbDBz99ETKBnv",
+    "metadata_json": "https://ipfs.io/ipfs/QmWbstpQ4w9gJRoRWiivc9ZGVGeSJucHBca5xq7nBdG9kF"
+  },
+  "attributes": [
+    {
+      "trait_type": "grid_size",
+      "value": 35
+    },
+    {
+      "trait_type": "cell_size",
+      "value": 6
+    },
+    {
+      "trait_type": "initial_density",
+      "value": 0.25
+    },
+    {
+      "trait_type": "speed_ms",
+      "value": 50
+    },
+    {
+      "trait_type": "current_generation",
+      "value": 765
+    },
+    {
+      "trait_type": "alive_cells",
+      "value": 23
+    },
+    {
+      "trait_type": "density_percentage",
+      "value": 1.9
+    },
+    {
+      "trait_type": "initial_pattern",
+      "value": "random"
+    },
+    {
+      "trait_type": "pattern_history",
+      "value": []
+    },
+    {
+      "trait_type": "canvas_scale",
+      "value": 1
+    },
+    {
+      "trait_type": "color_scheme",
+      "value": "grayscale"
+    },
+    {
+      "trait_type": "particle_effects",
+      "value": true
+    },
+    {
+      "trait_type": "cell_rendering.shape",
+      "value": "organic"
+    },
+    {
+      "trait_type": "cell_rendering.glow_effect",
+      "value": true
+    },
+    {
+      "trait_type": "cell_rendering.age_based_color",
+      "value": true
+    },
+    {
+      "trait_type": "cell_rendering.animation",
+      "value": "subtle_wiggle"
+    },
+    {
+      "trait_type": "background.type",
+      "value": "noise"
+    },
+    {
+      "trait_type": "background.color_range",
+      "value": [
+        30,
+        60
+      ]
+    },
+    {
+      "trait_type": "background.animation",
+      "value": "static"
+    },
+    {
+      "trait_type": "medium",
+      "value": "Simulation numérique interactive"
+    },
+    {
+      "trait_type": "style",
+      "value": "Art génératif"
+    },
+    {
+      "trait_type": "dimensions",
+      "value": {
+        "width": 210,
+        "height": 210,
+        "unit": "pixels"
+      }
+    },
+    {
+      "trait_type": "color_scheme",
+      "value": "niveaux de gris avec accents rouges"
+    },
+    {
+      "trait_type": "inspiration",
+      "value": "Règles du Jeu de la Vie de John Conway (1970)"
+    },
+    {
+      "trait_type": "generation_algorithm",
+      "value": "Conway's Game of Life"
+    },
+    {
+      "trait_type": "initial_state_hash",
+      "value": ""
+    },
+    {
+      "trait_type": "final_state_hash",
+      "value": ""
+    },
+    {
+      "trait_type": "animation_length_seconds",
+      "value": 38.25
+    },
+    {
+      "trait_type": "total_generations",
+      "value": 765
+    },
+    {
+      "trait_type": "schema",
+      "value": "ERC-721"
+    },
+    {
+      "trait_type": "blockchain",
+      "value": "Ethereum"
+    },
+    {
+      "trait_type": "collection_name",
+      "value": "Digital Cellular Automata"
+    },
+    {
+      "trait_type": "rarity",
+      "value": "Unique"
+    }
+  ],
+  "opensea_url": "",
+  "created_at": "2025-06-09T21:03:26.231053Z",
+  "updated_at": "2025-06-09T21:03:26.231053Z"
 }
 ]
