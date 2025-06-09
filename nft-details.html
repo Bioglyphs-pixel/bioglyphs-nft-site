@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Détails du NFT Bioglyph - Découvrez cette œuvre d'art génératif unique">
+    <title>Détails NFT - Bioglyphs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/nft-details.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="index.html"><h1>Bioglyphs</h1></a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="gallery.html" class="nav-link">Galerie</a></li>
+                <li><a href="index.html#about" class="nav-link">À Propos</a></li>
+                <li><a href="admin.html" class="nav-link admin-link">Admin</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Loading State -->
+    <div id="loading-state" class="loading-state">
+        <div class="loading-spinner"></div>
+        <p>Chargement des détails du NFT...</p>
+    </div>
+
+    <!-- Error State -->
+    <div id="error-state" class="error-state" style="display: none;">
+        <div class="container">
+            <div class="error-content">
+                <div class="error-icon">⚠️</div>
+                <h2>NFT non trouvé</h2>
+                <p>Le NFT demandé n'existe pas ou a été supprimé.</p>
+                <div class="error-actions">
+                    <a href="gallery.html" class="btn btn-primary">Retour à la Galerie</a>
+                    <a href="index.html" class="btn btn-secondary">Accueil</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- NFT Details Content -->
+    <main id="nft-details" class="nft-details" style="display: none;">
+        <!-- Breadcrumb -->
+        <section class="breadcrumb">
+            <div class="container">
+                <nav class="breadcrumb-nav">
+                    <a href="index.html">Accueil</a>
+                    <span class="breadcrumb-separator">→</span>
+                    <a href="gallery.html">Galerie</a>
+                    <span class="breadcrumb-separator">→</span>
+                    <span id="breadcrumb-title">Détails NFT</span>
+                </nav>
+            </div>
+        </section>
+
+        <!-- NFT Header -->
+        <section class="nft-header">
+            <div class="container">
+                <div class="nft-header-content">
+                    <div class="nft-title-section">
+                        <h1 id="nft-title" class="nft-title">Titre du NFT</h1>
+                        <p id="nft-id" class="nft-id">#ID</p>
+                    </div>
+                    <div class="nft-actions">
+                        <button id="share-btn" class="action-btn share-btn" title="Partager">
+                            📤
+                        </button>
+                        <button id="favorite-btn" class="action-btn favorite-btn" title="Ajouter aux favoris">
+                            ♡
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NFT Content -->
+        <section class="nft-content">
+            <div class="container">
+                <div class="nft-layout">
+                    <!-- Media Section -->
+                    <div class="media-section">
+                        <div class="media-container">
+                            <!-- Video Player -->
+                            <div class="video-container">
+                                <video id="nft-video" class="nft-video" controls poster="">
+                                    <source id="video-source" src="" type="video/mp4">
+                                    Votre navigateur ne supporte pas la lecture vidéo.
+                                </video>
+                                <div class="video-overlay">
+                                    <button id="play-btn" class="play-btn">▶️</button>
+                                </div>
+                            </div>
+                            
+                            <!-- Preview GIF (fallback) -->
+                            <div id="gif-container" class="gif-container" style="display: none;">
+                                <img id="nft-gif" class="nft-gif" src="" alt="Aperçu NFT">
+                            </div>
+                        </div>
+                        
+                        <!-- Media Controls -->
+                        <div class="media-controls">
+                            <button id="toggle-media" class="media-btn">
+                                <span id="media-toggle-text">Voir l'aperçu GIF</span>
+                            </button>
+                            <button id="fullscreen-btn" class="media-btn">
+                                Plein écran
+                            </button>
+                        </div>
+                        
+                        <!-- Action Buttons -->
+                        <div class="action-buttons">
+                            <a id="viewer-btn" href="#" target="_blank" class="btn btn-primary">
+                                🎮 Expérience Interactive
+                            </a>
+                            <a id="opensea-btn" href="#" target="_blank" class="btn btn-secondary">
+                                🌊 Voir sur OpenSea
+                            </a>
+                            <button id="download-metadata" class="btn btn-outline">
+                                📄 Télécharger Métadonnées
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Info Section -->
+                    <div class="info-section">
+                        <!-- Description -->
+                        <div class="info-card">
+                            <h3 class="info-title">Description</h3>
+                            <p id="nft-description" class="nft-description">
+                                Description du NFT...
+                            </p>
+                        </div>
+
+                        <!-- Attributes -->
+                        <div class="info-card">
+                            <h3 class="info-title">Attributs</h3>
+                            <div id="nft-attributes" class="attributes-grid">
+                                <!-- Les attributs seront chargés dynamiquement -->
+                            </div>
+                        </div>
+
+                        <!-- Technical Details -->
+                        <div class="info-card">
+                            <h3 class="info-title">Détails Techniques</h3>
+                            <div class="technical-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Créé le :</span>
+                                    <span id="creation-date" class="detail-value">-</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Dernière mise à jour :</span>
+                                    <span id="update-date" class="detail-value">-</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Stockage :</span>
+                                    <span class="detail-value">IPFS (Décentralisé)</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Format vidéo :</span>
+                                    <span class="detail-value">MP4</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- IPFS Links -->
+                        <div class="info-card">
+                            <h3 class="info-title">Liens IPFS</h3>
+                            <div class="ipfs-links">
+                                <a id="ipfs-video" href="#" target="_blank" class="ipfs-link">
+                                    🎬 Vidéo Animation
+                                </a>
+                                <a id="ipfs-gif" href="#" target="_blank" class="ipfs-link">
+                                    🖼️ Aperçu GIF
+                                </a>
+                                <a id="ipfs-viewer" href="#" target="_blank" class="ipfs-link">
+                                    🎮 Viewer Interactif
+                                </a>
+                                <a id="ipfs-metadata" href="#" target="_blank" class="ipfs-link">
+                                    📄 Métadonnées JSON
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Related NFTs -->
+        <section class="related-nfts">
+            <div class="container">
+                <h2 class="section-title">NFTs Similaires</h2>
+                <div id="related-grid" class="related-grid">
+                    <!-- Les NFTs similaires seront chargés dynamiquement -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Share Modal -->
+    <div id="share-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Partager ce NFT</h3>
+                <button id="close-share-modal" class="close-btn">×</button>
+            </div>
+            <div class="modal-body">
+                <div class="share-options">
+                    <button class="share-option" onclick="shareToTwitter()">
+                        🐦 Twitter
+                    </button>
+                    <button class="share-option" onclick="shareToFacebook()">
+                        📘 Facebook
+                    </button>
+                    <button class="share-option" onclick="copyToClipboard()">
+                        📋 Copier le lien
+                    </button>
+                </div>
+                <div class="share-url">
+                    <input type="text" id="share-url-input" readonly>
+                    <button onclick="copyToClipboard()" class="copy-btn">Copier</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Bioglyphs</h3>
+                    <p>L'art de la vie numérique, où la mathématique devient émotion et l'algorithme devient beauté.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="gallery.html">Galerie</a></li>
+                        <li><a href="index.html#about">À Propos</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Ressources</h4>
+                    <ul>
+                        <li><a href="https://opensea.io" target="_blank">OpenSea</a></li>
+                        <li><a href="https://ipfs.io" target="_blank">IPFS</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">Jeu de la Vie</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Pour toute question ou collaboration, n'hésitez pas à nous contacter.</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Bioglyphs. Tous droits réservés. Inspiré par John Conway (1937-2020).</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/nft-details.js"></script>
+</body>
+</html>
+

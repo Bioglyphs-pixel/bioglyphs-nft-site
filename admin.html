@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Interface d'administration Bioglyphs - Gestion de la collection NFT">
+    <title>Administration - Bioglyphs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="index.html"><h1>Bioglyphs</h1></a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="gallery.html" class="nav-link">Galerie</a></li>
+                <li><a href="index.html#about" class="nav-link">À Propos</a></li>
+                <li><a href="admin.html" class="nav-link admin-link active">Admin</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Login Section -->
+    <section id="login-section" class="login-section">
+        <div class="container">
+            <div class="login-container">
+                <div class="login-header">
+                    <h1>Administration Bioglyphs</h1>
+                    <p>Connectez-vous pour gérer votre collection NFT</p>
+                </div>
+                
+                <form id="login-form" class="login-form">
+                    <div class="form-group">
+                        <label for="admin-password">Mot de passe administrateur</label>
+                        <input type="password" id="admin-password" name="password" required 
+                               placeholder="Entrez votre mot de passe">
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Se connecter</button>
+                    
+                    <div id="login-error" class="error-message" style="display: none;">
+                        Mot de passe incorrect. Veuillez réessayer.
+                    </div>
+                </form>
+                
+                <div class="login-info">
+                    <h3>Informations importantes</h3>
+                    <ul>
+                        <li>Cette interface permet de gérer votre collection Bioglyphs</li>
+                        <li>Vous pouvez ajouter, modifier et supprimer des NFTs</li>
+                        <li>Les médias doivent être hébergés sur IPFS/Pinata</li>
+                        <li>Les modifications sont sauvegardées localement</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admin Dashboard -->
+    <main id="admin-dashboard" class="admin-dashboard" style="display: none;">
+        <!-- Dashboard Header -->
+        <section class="dashboard-header">
+            <div class="container">
+                <div class="dashboard-title">
+                    <h1>Tableau de Bord</h1>
+                    <p>Gestion de la collection Bioglyphs</p>
+                </div>
+                
+                <div class="dashboard-actions">
+                    <button id="add-nft-btn" class="btn btn-primary">
+                        ➕ Ajouter un NFT
+                    </button>
+                    <button id="export-data-btn" class="btn btn-secondary">
+                        📤 Exporter les données
+                    </button>
+                    <button id="logout-btn" class="btn btn-outline">
+                        🚪 Déconnexion
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dashboard Stats -->
+        <section class="dashboard-stats">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">🎨</div>
+                        <div class="stat-content">
+                            <h3 id="total-nfts">0</h3>
+                            <p>NFTs Total</p>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon">📅</div>
+                        <div class="stat-content">
+                            <h3 id="recent-nfts">0</h3>
+                            <p>Ajoutés ce mois</p>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon">🔄</div>
+                        <div class="stat-content">
+                            <h3 id="updated-nfts">0</h3>
+                            <p>Modifiés récemment</p>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon">💾</div>
+                        <div class="stat-content">
+                            <h3 id="backup-date">-</h3>
+                            <p>Dernière sauvegarde</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NFT Management -->
+        <section class="nft-management">
+            <div class="container">
+                <div class="management-header">
+                    <h2>Gestion des NFTs</h2>
+                    <div class="management-controls">
+                        <input type="text" id="search-nfts" placeholder="Rechercher un NFT..." class="search-input">
+                        <select id="filter-status" class="filter-select">
+                            <option value="">Tous les statuts</option>
+                            <option value="active">Actifs</option>
+                            <option value="draft">Brouillons</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="nfts-table-container">
+                    <table id="nfts-table" class="nfts-table">
+                        <thead>
+                            <tr>
+                                <th>Aperçu</th>
+                                <th>Nom</th>
+                                <th>ID</th>
+                                <th>Créé le</th>
+                                <th>Modifié le</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="nfts-table-body">
+                            <!-- Les NFTs seront chargés dynamiquement -->
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div id="no-nfts-message" class="no-nfts-message" style="display: none;">
+                    <div class="no-nfts-icon">🎨</div>
+                    <h3>Aucun NFT trouvé</h3>
+                    <p>Commencez par ajouter votre premier NFT à la collection.</p>
+                    <button onclick="showAddNFTForm()" class="btn btn-primary">Ajouter un NFT</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- NFT Form Modal -->
+    <div id="nft-form-modal" class="modal" style="display: none;">
+        <div class="modal-content large">
+            <div class="modal-header">
+                <h3 id="form-title">Ajouter un NFT</h3>
+                <button id="close-form-modal" class="close-btn">×</button>
+            </div>
+            
+            <div class="modal-body">
+                <form id="nft-form" class="nft-form">
+                    <!-- Informations de base -->
+                    <div class="form-section">
+                        <h4>Informations de base</h4>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="nft-id">ID du NFT *</label>
+                                <input type="text" id="nft-id" name="id" required 
+                                       placeholder="ex: bioglyph_001">
+                                <small>Identifiant unique (lettres, chiffres, tirets bas)</small>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="nft-name">Nom *</label>
+                                <input type="text" id="nft-name" name="name" required 
+                                       placeholder="ex: Évolution de la Vie Numérique">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="nft-description">Description *</label>
+                            <textarea id="nft-description" name="description" required rows="4"
+                                      placeholder="Description détaillée du NFT..."></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Liens IPFS/Pinata -->
+                    <div class="form-section">
+                        <h4>Liens IPFS/Pinata</h4>
+                        
+                        <div class="form-group">
+                            <label for="animation-url">URL de la vidéo d'animation *</label>
+                            <input type="url" id="animation-url" name="animation_url" required 
+                                   placeholder="https://ipfs.io/ipfs/...">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="preview-gif">URL de l'aperçu GIF *</label>
+                            <input type="url" id="preview-gif" name="preview_gif" required 
+                                   placeholder="https://ipfs.io/ipfs/...">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="viewer-html">URL du viewer interactif *</label>
+                            <input type="url" id="viewer-html" name="viewer_html" required 
+                                   placeholder="https://ipfs.io/ipfs/...">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="metadata-json">URL des métadonnées JSON</label>
+                            <input type="url" id="metadata-json" name="metadata_json" 
+                                   placeholder="https://ipfs.io/ipfs/...">
+                        </div>
+                    </div>
+
+                    <!-- Attributs -->
+                    <div class="form-section">
+                        <h4>Attributs</h4>
+                        <div id="attributes-container">
+                            <!-- Les attributs seront ajoutés dynamiquement -->
+                        </div>
+                        <button type="button" id="add-attribute-btn" class="btn btn-secondary">
+                            ➕ Ajouter un attribut
+                        </button>
+                    </div>
+
+                    <!-- Liens externes -->
+                    <div class="form-section">
+                        <h4>Liens externes</h4>
+                        
+                        <div class="form-group">
+                            <label for="opensea-url">URL OpenSea</label>
+                            <input type="url" id="opensea-url" name="opensea_url" 
+                                   placeholder="https://opensea.io/assets/...">
+                        </div>
+                    </div>
+
+                    <!-- Boutons d'action -->
+                    <div class="form-actions">
+                        <button type="button" id="cancel-form" class="btn btn-secondary">Annuler</button>
+                        <button type="submit" class="btn btn-primary">
+                            <span id="submit-text">Ajouter le NFT</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Confirmation Modal -->
+    <div id="confirm-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="confirm-title">Confirmer l'action</h3>
+                <button id="close-confirm-modal" class="close-btn">×</button>
+            </div>
+            <div class="modal-body">
+                <p id="confirm-message">Êtes-vous sûr de vouloir effectuer cette action ?</p>
+                <div class="modal-actions">
+                    <button id="confirm-cancel" class="btn btn-secondary">Annuler</button>
+                    <button id="confirm-ok" class="btn btn-primary">Confirmer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Bioglyphs Admin</h3>
+                    <p>Interface d'administration pour la gestion de votre collection NFT.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Aide</h4>
+                    <ul>
+                        <li><a href="#" onclick="showHelp()">Guide d'utilisation</a></li>
+                        <li><a href="https://docs.pinata.cloud/" target="_blank">Documentation Pinata</a></li>
+                        <li><a href="https://ipfs.io/" target="_blank">À propos d'IPFS</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Sécurité</h4>
+                    <ul>
+                        <li>Données stockées localement</li>
+                        <li>Aucune transmission de données</li>
+                        <li>Sauvegarde recommandée</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Bioglyphs. Interface d'administration sécurisée.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/admin.js"></script>
+</body>
+</html>
+

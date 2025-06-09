@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Galerie complète de la collection Bioglyphs - Explorez tous nos NFTs d'art génératif">
+    <title>Galerie - Bioglyphs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="index.html"><h1>Bioglyphs</h1></a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="gallery.html" class="nav-link active">Galerie</a></li>
+                <li><a href="index.html#about" class="nav-link">À Propos</a></li>
+                <li><a href="admin.html" class="nav-link admin-link">Admin</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Gallery Header -->
+    <section class="gallery-header">
+        <div class="container">
+            <h1 class="gallery-title">Collection Bioglyphs</h1>
+            <p class="gallery-subtitle">Explorez l'univers fascinant de l'art génératif basé sur le Jeu de la Vie de Conway</p>
+            
+            <!-- Search and Filters -->
+            <div class="gallery-controls">
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Rechercher par nom..." class="search-input">
+                    <button id="search-btn" class="search-btn">🔍</button>
+                </div>
+                
+                <div class="filters-container">
+                    <select id="form-filter" class="filter-select">
+                        <option value="">Toutes les formes</option>
+                        <option value="Glider">Glider</option>
+                        <option value="Oscillator">Oscillator</option>
+                        <option value="Still Life">Still Life</option>
+                        <option value="Chaos">Chaos</option>
+                    </select>
+                    
+                    <select id="behavior-filter" class="filter-select">
+                        <option value="">Tous les comportements</option>
+                        <option value="Mobile">Mobile</option>
+                        <option value="Stable">Stable</option>
+                        <option value="Periodic">Periodic</option>
+                        <option value="Explosive">Explosive</option>
+                    </select>
+                    
+                    <select id="color-filter" class="filter-select">
+                        <option value="">Toutes les couleurs</option>
+                        <option value="grayscale">Niveaux de gris</option>
+                        <option value="warm">Tons chauds</option>
+                        <option value="cool">Tons froids</option>
+                        <option value="vibrant">Couleurs vives</option>
+                    </select>
+                    
+                    <button id="clear-filters" class="clear-filters-btn">Effacer les filtres</button>
+                </div>
+            </div>
+            
+            <!-- Results Info -->
+            <div class="results-info">
+                <span id="results-count">Chargement...</span>
+                <div class="view-options">
+                    <button id="grid-view" class="view-btn active" title="Vue grille">⊞</button>
+                    <button id="list-view" class="view-btn" title="Vue liste">☰</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-content">
+        <div class="container">
+            <!-- Loading State -->
+            <div id="loading-state" class="loading-state">
+                <div class="loading-spinner"></div>
+                <p>Chargement de la collection...</p>
+            </div>
+            
+            <!-- Gallery Grid -->
+            <div id="gallery-grid" class="gallery-grid">
+                <!-- Les NFTs seront chargés dynamiquement ici -->
+            </div>
+            
+            <!-- Empty State -->
+            <div id="empty-state" class="empty-state" style="display: none;">
+                <div class="empty-icon">🔍</div>
+                <h3>Aucun résultat trouvé</h3>
+                <p>Essayez de modifier vos critères de recherche ou de filtrage.</p>
+                <button onclick="clearAllFilters()" class="btn btn-secondary">Effacer tous les filtres</button>
+            </div>
+            
+            <!-- Error State -->
+            <div id="error-state" class="error-state" style="display: none;">
+                <div class="error-icon">⚠️</div>
+                <h3>Erreur de chargement</h3>
+                <p>Impossible de charger la collection. Veuillez réessayer.</p>
+                <button onclick="loadGalleryNFTs()" class="btn btn-primary">Réessayer</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pagination -->
+    <section class="pagination-section">
+        <div class="container">
+            <div id="pagination" class="pagination">
+                <!-- La pagination sera générée dynamiquement -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Bioglyphs</h3>
+                    <p>L'art de la vie numérique, où la mathématique devient émotion et l'algorithme devient beauté.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="gallery.html">Galerie</a></li>
+                        <li><a href="index.html#about">À Propos</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Ressources</h4>
+                    <ul>
+                        <li><a href="https://opensea.io" target="_blank">OpenSea</a></li>
+                        <li><a href="https://ipfs.io" target="_blank">IPFS</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">Jeu de la Vie</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Pour toute question ou collaboration, n'hésitez pas à nous contacter.</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Bioglyphs. Tous droits réservés. Inspiré par John Conway (1937-2020).</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>
+

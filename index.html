@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bioglyphs - Collection unique d'œuvres d'art numériques générées par le Jeu de la Vie de Conway">
+    <meta name="keywords" content="NFT, art numérique, Jeu de la Vie, Conway, art génératif, blockchain">
+    <title>Bioglyphs - L'Art de la Vie Numérique</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <h1>Bioglyphs</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Accueil</a></li>
+                <li><a href="gallery.html" class="nav-link">Galerie</a></li>
+                <li><a href="#about" class="nav-link">À Propos</a></li>
+                <li><a href="admin.html" class="nav-link admin-link">Admin</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <canvas id="particles-canvas"></canvas>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-main">Bioglyphs</span>
+                <span class="title-sub">L'Art de la Vie Numérique</span>
+            </h1>
+            <p class="hero-description">
+                Découvrez une collection unique d'œuvres d'art numériques générées par les règles fascinantes du Jeu de la Vie de Conway. Chaque Bioglyph capture l'émergence de la complexité à partir de la simplicité, transformant des algorithmes mathématiques en expériences visuelles captivantes.
+            </p>
+            <div class="hero-actions">
+                <a href="gallery.html" class="btn btn-primary">Explorer la Collection</a>
+                <a href="#about" class="btn btn-secondary">En Savoir Plus</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-cell"></div>
+            <div class="floating-cell"></div>
+            <div class="floating-cell"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>L'Essence des Bioglyphs</h2>
+                <p>Une fusion révolutionnaire entre l'art numérique et la science computationnelle</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">🧬</div>
+                    <h3>La Science Derrière l'Art</h3>
+                    <p>Chaque Bioglyph naît d'un automate cellulaire basé sur le célèbre "Jeu de la Vie" de John Conway. Des règles simples donnent naissance à des motifs d'une beauté extraordinaire.</p>
+                    <ul class="rules-list">
+                        <li><strong>Naissance :</strong> Une cellule naît avec 3 voisines vivantes</li>
+                        <li><strong>Survie :</strong> Une cellule reste vivante avec 2 ou 3 voisines</li>
+                        <li><strong>Mort :</strong> Dans tous les autres cas</li>
+                    </ul>
+                </div>
+                
+                <div class="about-card">
+                    <div class="card-icon">🎨</div>
+                    <h3>L'Innovation Artistique</h3>
+                    <p>Contrairement aux représentations traditionnelles, les Bioglyphs transforment chaque cellule en forme organique unique avec des effets visuels captivants.</p>
+                    <ul class="features-list">
+                        <li>Formes fluides et vivantes</li>
+                        <li>Évolution visuelle avec l'âge</li>
+                        <li>Halos lumineux mystiques</li>
+                        <li>Particules atmosphériques</li>
+                    </ul>
+                </div>
+                
+                <div class="about-card">
+                    <div class="card-icon">⚡</div>
+                    <h3>L'Expérience Interactive</h3>
+                    <p>Chaque Bioglyph inclut un visualiseur interactif permettant d'observer l'évolution en temps réel et d'analyser les motifs émergents.</p>
+                    <ul class="features-list">
+                        <li>Contrôle de la simulation</li>
+                        <li>Analyse des motifs</li>
+                        <li>Statistiques détaillées</li>
+                        <li>Exploration temporelle</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collection Preview -->
+    <section class="collection-preview">
+        <div class="container">
+            <div class="section-header">
+                <h2>Aperçu de la Collection</h2>
+                <p>Découvrez quelques-unes de nos œuvres les plus remarquables</p>
+            </div>
+            
+            <div class="preview-grid" id="preview-grid">
+                <!-- Les NFTs seront chargés dynamiquement ici -->
+            </div>
+            
+            <div class="preview-actions">
+                <a href="gallery.html" class="btn btn-primary">Voir Toute la Collection</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <div class="container">
+            <div class="section-header">
+                <h2>Types de Motifs</h2>
+                <p>Explorez les différentes catégories de structures émergentes</p>
+            </div>
+            
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-icon">🚀</div>
+                    <h3>Gliders</h3>
+                    <p>Structures mobiles qui traversent l'espace de manière cyclique, créant des voyages hypnotiques à travers la grille.</p>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">🔄</div>
+                    <h3>Oscillators</h3>
+                    <p>Motifs qui alternent entre différents états de manière périodique, créant des rythmes visuels fascinants.</p>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">🏛️</div>
+                    <h3>Still Life</h3>
+                    <p>Structures stables qui atteignent un équilibre parfait, représentant la beauté de la permanence.</p>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">🌪️</div>
+                    <h3>Chaos</h3>
+                    <p>Évolutions imprévisibles et complexes qui défient toute tentative de prédiction, pure créativité algorithmique.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Section -->
+    <section class="technical">
+        <div class="container">
+            <div class="technical-content">
+                <div class="technical-text">
+                    <h2>Technologie et Permanence</h2>
+                    <p>Chaque Bioglyph est stocké sur IPFS (InterPlanetary File System), garantissant la permanence et la décentralisation de ces œuvres d'art numériques.</p>
+                    
+                    <div class="tech-features">
+                        <div class="tech-feature">
+                            <strong>Stockage Décentralisé</strong>
+                            <p>Vos œuvres sont distribuées sur un réseau mondial</p>
+                        </div>
+                        <div class="tech-feature">
+                            <strong>Permanence Garantie</strong>
+                            <p>Les fichiers restent accessibles indéfiniment</p>
+                        </div>
+                        <div class="tech-feature">
+                            <strong>Métadonnées Complètes</strong>
+                            <p>Chaque œuvre inclut toutes ses données techniques</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="technical-visual">
+                    <div class="tech-grid">
+                        <div class="tech-node"></div>
+                        <div class="tech-node"></div>
+                        <div class="tech-node"></div>
+                        <div class="tech-node"></div>
+                        <div class="tech-node"></div>
+                        <div class="tech-node"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Bioglyphs</h3>
+                    <p>L'art de la vie numérique, où la mathématique devient émotion et l'algorithme devient beauté.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#home">Accueil</a></li>
+                        <li><a href="gallery.html">Galerie</a></li>
+                        <li><a href="#about">À Propos</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Ressources</h4>
+                    <ul>
+                        <li><a href="https://opensea.io" target="_blank">OpenSea</a></li>
+                        <li><a href="https://ipfs.io" target="_blank">IPFS</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">Jeu de la Vie</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Pour toute question ou collaboration, n'hésitez pas à nous contacter.</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Bioglyphs. Tous droits réservés. Inspiré par John Conway (1937-2020).</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
