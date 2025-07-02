@@ -643,10 +643,12 @@
   "id": "bioglyph_Glyph-0010-1Z0JF0",
   "name": "Glyph-0010-1Z0JF0",
   "description": "Exploration of emergent complexity from simple rules, where cellular patterns evolve over time into complex and ever-changing structures",
-  "animation_url": "https://ipfs.io/ipfs/QmThLTMBrTicCh81fbeCnk2FPWyYgA4JUGFuZQfzYd7RUn",
-  "preview_gif": "https://ipfs.io/ipfs/QmTjc4G5LhYY7UAhZJotjiRSh6VuQUvWv9GdnNUaF2WxkP",
-  "viewer_html": "https://ipfs.io/ipfs/QmPgJUMPB9cqpWQ8XdBErkukyZz6VmKsVXtR7zsDxdUPff",
-  "metadata_json": "https://ipfs.io/ipfs/QmUuZ9t6zgjAKYPBHQu3h8DBw5kQxoCWHB6U2U8gBeHSFW",
+  "media": {
+    "animation_url": "https://ipfs.io/ipfs/QmThLTMBrTicCh81fbeCnk2FPWyYgA4JUGFuZQfzYd7RUn",
+    "preview_gif": "https://ipfs.io/ipfs/QmTjc4G5LhYY7UAhZJotjiRSh6VuQUvWv9GdnNUaF2WxkP",
+    "viewer_html": "https://ipfs.io/ipfs/QmPgJUMPB9cqpWQ8XdBErkukyZz6VmKsVXtR7zsDxdUPff",
+    "metadata_json": "https://ipfs.io/ipfs/QmUuZ9t6zgjAKYPBHQu3h8DBw5kQxoCWHB6U2U8gBeHSFW",
+  },
   "attributes": [
     {
       "trait_type": "Grid Size",
