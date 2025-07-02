@@ -518,5 +518,651 @@
   "opensea_url": "",
   "created_at": "2025-07-02T00:50:15.057881Z",
   "updated_at": "2025-07-02T00:50:15.057881Z"
-}
+},
+  {
+    "id": "bioglyph_Glyph-0026-N7IM1W",
+    "name": "Glyph-0026-N7IM1W",
+    "description": "Exploration of emergent complexity from simple rules, where cellular patterns evolve over time into complex and ever-changing structures",
+    "animation_url": "https://ipfs.io/ipfs/QmSjkei9DmceTwyKbjtn3MW8QBaiqzPHGtFGJbcpj7qseD",
+    "preview_gif": "https://ipfs.io/ipfs/QmTuxze4TXh8kepjGVgmhzbYB2HKPAXx7cPKBTcVLBi19F",
+    "viewer_html": "https://ipfs.io/ipfs/QmVdGJdvLyLA7ZghtrXVTiHb8rFv1EujQsFsuPEh2tiFBC",
+    "metadata_json": "https://ipfs.io/ipfs/QmPSnz81S76t328ppDM3iTVFR2Y3r7hdeu3HoejrqBbRYY",
+    "attributes": [
+      {
+        "trait_type": "Grid Size",
+        "value": 100
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 4
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "#adb724"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(255,0,0,0.24)"
+      },
+      {
+        "trait_type": "Background Color",
+        "value": "#1e1e1e"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(12,207,194,0.08)"
+      }
+    ],
+    "opensea_url": "",
+    "created_at": "2025-07-02T10:21:48.891548Z",
+    "updated_at": "2025-07-02T10:21:48.891548Z"
+  },
+  {
+    "id": "bioglyph_Glyph-0027-77ZE76",
+    "name": "Glyph-0027-77ZE76",
+    "description": "Exploration of emergent complexity from simple rules, where cellular patterns evolve over time into complex and ever-changing structures",
+    "animation_url": "https://ipfs.io/ipfs/QmR3XMGiaE1mCP751Wt79yQn7Ume3FxWLfHCsmtTPX2ZCA",
+    "preview_gif": "https://ipfs.io/ipfs/QmNPDQ5JZcHytaAucHi9guzwbwC6ftNhbHNd1ShaNNfhir",
+    "viewer_html": "https://ipfs.io/ipfs/QmS9ZEmGJ7owgFtqGsEgGRiwMuf2GUzeUXTviZjFXqfFL9",
+    "metadata_json": "https://ipfs.io/ipfs/QmT8vfqSD6ZYiAHLsv6htuhWW5FW3ZbCD1EdHBjm5iHbB3",
+    "attributes": [
+      {
+        "trait_type": "Grid Size",
+        "value": 35
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 8
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "#000000"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(255,0,0,0.24)"
+      },
+      {
+        "trait_type": "Background Color",
+        "value": "#ff0000"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(0,251,255,0.08)"
+      }
+    ],
+    "opensea_url": "",
+    "created_at": "2025-07-02T10:22:50.052941Z",
+    "updated_at": "2025-07-02T10:22:50.052941Z"
+  },
+  {
+    "id": "bioglyph_Glyph-0028-55OA97",
+    "name": "Glyph-0028-55OA97",
+    "description": "Exploration of emergent complexity from simple rules, where cellular patterns evolve over time into complex and ever-changing structures",
+    "animation_url": "https://ipfs.io/ipfs/QmRsycu2LNNkFA2C3MnF4UwJokv1Qo9WSXAyVhF7eooXjq",
+    "preview_gif": "https://ipfs.io/ipfs/QmcG6yRD6SFS2aSRjcAkSHfhrnKV9P6qSu6hbvtgLCRari",
+    "viewer_html": "https://ipfs.io/ipfs/QmQyvkFzfY5apsAinPkY5p2jHmnoEQdr43uavnM3a13ubo",
+    "metadata_json": "https://ipfs.io/ipfs/Qma8aTgX5DZ5pN3woiaxrTpNWzS1oRjwJWjS1TomJeuzuS",
+    "attributes": [
+      {
+        "trait_type": "Grid Size",
+        "value": 35
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 8
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "#000000"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(255,0,0,0.24)"
+      },
+      {
+        "trait_type": "Background Color",
+        "value": "#ff0000"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(0,251,255,0.08)"
+      }
+    ],
+    "opensea_url": "",
+    "created_at": "2025-07-02T10:23:38.046651Z",
+    "updated_at": "2025-07-02T10:23:38.046651Z"
+  },
+  {
+    "id": "bioglyph_Glyph-0029-HE74CQ",
+    "name": "Glyph-0029-HE74CQ",
+    "description": "Exploration of emergent complexity from simple rules, where cellular patterns evolve over time into complex and ever-changing structures",
+    "animation_url": "https://ipfs.io/ipfs/QmU635DZ25Z3NVYJYaHTkrCQ7d7vfBSNoCcCyLxaueWmWN",
+    "preview_gif": "https://ipfs.io/ipfs/QmQqGqaLyrVZE9EKVKQTwQM1ewUZ6ByV4FQKBVfVSsayjM",
+    "viewer_html": "https://ipfs.io/ipfs/QmNUg8TSaydo7WmsBTq9a7HXcztdGYZRio7JnGrrasW6o4",
+    "metadata_json": "https://ipfs.io/ipfs/QmT2df7mLMUhBYeXLMGo5YakfWcaH9jZJnoBxi5ZBZnWsc",
+    "attributes": [
+      {
+        "trait_type": "Grid Size",
+        "value": 35
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 8
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "#000000"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(255,0,0,0.24)"
+      },
+      {
+        "trait_type": "Background Color",
+        "value": "#ff0000"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(0,251,255,0.08)"
+      }
+    ],
+    "opensea_url": "",
+    "created_at": "2025-07-02T10:24:52.237403Z",
+    "updated_at": "2025-07-02T10:24:52.237403Z"
+  },
+  {
+    "id": "bioglyph_Glyph-0030-2SQKV6",
+    "name": "Glyph-0030-2SQKV6",
+    "description": "Exploration of emergent complexity from simple rules, where cellular patterns evolve over time into complex and ever-changing structures",
+    "animation_url": "https://ipfs.io/ipfs/Qmcqb5nQrk1jjuYfi8mz1x6ygZFQDFCJHChqFmeaHCQyCo",
+    "preview_gif": "https://ipfs.io/ipfs/QmRYcjkdvLSiDJZYkxbcmo22E4FB6biwi3Fp2EbTGKCkGE",
+    "viewer_html": "https://ipfs.io/ipfs/QmRYF74SeH2Vfn2wnHMKi95KFmnXe383ErDGN9igJpQ3MS",
+    "metadata_json": "https://ipfs.io/ipfs/QmXbyY92SzAMu7HzGE9qPspP8aREJkvNAvhKtQGtmyUnMW",
+    "attributes": [
+      {
+        "trait_type": "Grid Size",
+        "value": 35
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 8
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "#000000"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(255,0,0,0.24)"
+      },
+      {
+        "trait_type": "Background Color",
+        "value": "#ff0000"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(0,251,255,0.08)"
+      }
+    ],
+    "opensea_url": "",
+    "created_at": "2025-07-02T10:25:28.942875Z",
+    "updated_at": "2025-07-02T10:25:28.942875Z"
+  },
+  {
+    "id": "bioglyph_Glyph-0031-YBPLSA",
+    "name": "Glyph-0031-YBPLSA",
+    "description": "Exploration of emergent complexity from simple rules, where cellular patterns evolve over time into complex and ever-changing structures",
+    "animation_url": "https://ipfs.io/ipfs/QmTYcCgqMt59T1Qgv6SeuFp9uxUe8cS51pHe9Ls2rresZp",
+    "preview_gif": "https://ipfs.io/ipfs/QmcG43Y9ZyDjKe9MaEpP93dTsBrxgR1DeTJLtkr13oHQK6",
+    "viewer_html": "https://ipfs.io/ipfs/QmXZJnBZWx5ozYoRbHCwQt7N92tRTEwK9M9ZVruVSLEy4t",
+    "metadata_json": "https://ipfs.io/ipfs/QmY5giXpq18sbUCgs6xonAinozRFGV2cEMrSfEhD99YtWd",
+    "attributes": [
+      {
+        "trait_type": "Grid Size",
+        "value": 35
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 8
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "#000000"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(255,0,0,0.24)"
+      },
+      {
+        "trait_type": "Background Color",
+        "value": "#ff0000"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(0,251,255,0.08)"
+      }
+    ],
+    "opensea_url": "",
+    "created_at": "2025-07-02T10:25:52.825521Z",
+    "updated_at": "2025-07-02T10:25:52.825521Z"
+  },
+  {
+    "id": "bioglyph_Glyph-0032-3TT6M1",
+    "name": "Glyph-0032-3TT6M1",
+    "description": "Exploration of emergent complexity from simple rules, where cellular patterns evolve over time into complex and ever-changing structures",
+    "animation_url": "https://ipfs.io/ipfs/QmRqGdyju2AhXVRy6KhhLW3rKPqgc3hiz66Qe6iDchgic1",
+    "preview_gif": "https://ipfs.io/ipfs/QmNQJBAS3Yw3ewTcYcvD94PLveLAAfaS9Rj4Z67BQ6rSx4",
+    "viewer_html": "https://ipfs.io/ipfs/QmdFBMziEZfHsASFwb4k4Ac284x4u5SeLEtpVLbKpCbsg5",
+    "metadata_json": "https://ipfs.io/ipfs/QmbGeyAVpQZ6qnZEfZ3R1mfABbsEzwUVzipXNkcfynpq9j",
+    "attributes": [
+      {
+        "trait_type": "Grid Size",
+        "value": 35
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 8
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "#000000"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(255,0,0,0.24)"
+      },
+      {
+        "trait_type": "Background Color",
+        "value": "#ff0000"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(0,251,255,0.08)"
+      }
+    ],
+    "opensea_url": "",
+    "created_at": "2025-07-02T10:29:11.995177Z",
+    "updated_at": "2025-07-02T10:29:11.995177Z"
+  },
+  {
+    "id": "bioglyph_Glyph-0033-H0ADAM",
+    "name": "Glyph-0033-H0ADAM",
+    "description": "Exploration of emergent complexity from simple rules, where cellular patterns evolve over time into complex and ever-changing structures",
+    "animation_url": "https://ipfs.io/ipfs/QmWYvg3MHdSMZ4VnP1w1FxB4YmJQmnQK5K7NNxWKfDqdqA",
+    "preview_gif": "https://ipfs.io/ipfs/Qmb2LAWoyrfv1EJce3mj9NN4X4g5EzB9krGoTVmCFpvqc1",
+    "viewer_html": "https://ipfs.io/ipfs/QmbeMRj6aEMZ9kpCiSzTM9wcGZhbWxVZvdSfzXiupXCxru",
+    "metadata_json": "https://ipfs.io/ipfs/QmPe1hVvuRcifYcg36q66s47E5yajCKX1JzunhtBg6QiAE",
+    "attributes": [
+      {
+        "trait_type": "Grid Size",
+        "value": 35
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 8
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "#000000"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(255,0,0,0.24)"
+      },
+      {
+        "trait_type": "Background Color",
+        "value": "#ff0000"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(0,251,255,0.08)"
+      }
+    ],
+    "opensea_url": "",
+    "created_at": "2025-07-02T10:29:37.849427Z",
+    "updated_at": "2025-07-02T10:29:37.849427Z"
+  },
+  {
+    "id": "bioglyph_Glyph-0034-F7RSOY",
+    "name": "Glyph-0034-F7RSOY",
+    "description": "Exploration of emergent complexity from simple rules, where cellular patterns evolve over time into complex and ever-changing structures",
+    "animation_url": "https://ipfs.io/ipfs/QmXXAfspQWTUUfnHY94dGtztsv53T4vBQBHJoB6azNSHwa",
+    "preview_gif": "https://ipfs.io/ipfs/QmX4zxhDEDcbF7Z6BgJ7zQsqSxV7722wLsgb5B8Ra4J1Ce",
+    "viewer_html": "https://ipfs.io/ipfs/QmQZv8qGixnLFMXyqdEUPwTVPLWp3iXtGDSNoCDBDCs8gZ",
+    "metadata_json": "https://ipfs.io/ipfs/QmPhi1PwukYd7PePBK77wFqS3PrdCL9dxEqtBSFaALxJQ3",
+    "attributes": [
+      {
+        "trait_type": "Grid Size",
+        "value": 35
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 8
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "#000000"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(255,0,0,0.24)"
+      },
+      {
+        "trait_type": "Background Color",
+        "value": "#ff0000"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(0,251,255,0.08)"
+      }
+    ],
+    "opensea_url": "",
+    "created_at": "2025-07-02T10:30:14.787705Z",
+    "updated_at": "2025-07-02T10:30:14.787705Z"
+  },
+  {
+    "id": "bioglyph_Glyph-0035-Y53FWL",
+    "name": "Glyph-0035-Y53FWL",
+    "description": "Exploration of emergent complexity from simple rules, where cellular patterns evolve over time into complex and ever-changing structures",
+    "animation_url": "https://ipfs.io/ipfs/QmR9AU6dinZU7iNoBoRmu1SoasETCYH4CUDDttfQkXsdxh",
+    "preview_gif": "https://ipfs.io/ipfs/QmcyFSPPeBzETf7u4hJQ6ZARxcxmfdLMAQ6EpzWp5A623J",
+    "viewer_html": "https://ipfs.io/ipfs/QmUQ685cLF2RqG5tmcxxNQQFmbRii2SwrhzpCaBB1huTBg",
+    "metadata_json": "https://ipfs.io/ipfs/Qmf25cPxbj96KzHx2utAggHiVSfPCM9pm5KwExjhRzmvha",
+    "attributes": [
+      {
+        "trait_type": "Grid Size",
+        "value": 35
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 8
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "#000000"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(255,0,0,0.24)"
+      },
+      {
+        "trait_type": "Background Color",
+        "value": "#ff0000"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(0,251,255,0.08)"
+      }
+    ],
+    "opensea_url": "",
+    "created_at": "2025-07-02T10:30:53.674785Z",
+    "updated_at": "2025-07-02T10:30:53.674785Z"
+  },
+  {
+    "id": "bioglyph_Glyph-0036-QNNYUR",
+    "name": "Glyph-0036-QNNYUR",
+    "description": "Exploration of emergent complexity from simple rules, where cellular patterns evolve over time into complex and ever-changing structures",
+    "animation_url": "https://ipfs.io/ipfs/QmVCzv8hvwEirTu7W5TjN9GuyB7yoshPjdVdFjFxmfcv2e",
+    "preview_gif": "https://ipfs.io/ipfs/QmSSdXgTxKZGuz3xpSmfVeKUJ8E8LLP3WgMQs2twEjo37Z",
+    "viewer_html": "https://ipfs.io/ipfs/QmeR984rLbND63o5Q3BTY7YbpGQVPP3WFp35xsfxRvT77T",
+    "metadata_json": "https://ipfs.io/ipfs/Qme8evFtNcbbuSMdhNj5zrw52fz5LAvmDPoCehgPoZw5xV",
+    "attributes": [
+      {
+        "trait_type": "Grid Size",
+        "value": 45
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 8
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "#fa0032"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(0,255,251,0.24)"
+      },
+      {
+        "trait_type": "Background Color",
+        "value": "#0084ff"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(255,25,0,0.08)"
+      }
+    ],
+    "opensea_url": "",
+    "created_at": "2025-07-02T10:31:35.073662Z",
+    "updated_at": "2025-07-02T10:31:35.073662Z"
+  },
+  {
+    "id": "bioglyph_Glyph-0037-7GKJ3D",
+    "name": "Glyph-0037-7GKJ3D",
+    "description": "Exploration of emergent complexity from simple rules, where cellular patterns evolve over time into complex and ever-changing structures",
+    "animation_url": "https://ipfs.io/ipfs/QmaTaHBJAxFeurXTSxSbeKy9EuTeXP5H6Zt3TTuKALJQac",
+    "preview_gif": "https://ipfs.io/ipfs/QmeFpyChUUhAUqsHCde1DYsPRmeokbgtaGe9dJKjJ37N3a",
+    "viewer_html": "https://ipfs.io/ipfs/QmVxzDMAyCNxRCKNPtuKwM4WENRyJyF8i68F4s6P3Mj48R",
+    "metadata_json": "https://ipfs.io/ipfs/QmY5YpdnEkRqNjimaueV6q5oCgsVYVeQwRXRGXt4NeZxwy",
+    "attributes": [
+      {
+        "trait_type": "Grid Size",
+        "value": 45
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 8
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "#fa0032"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(0,255,251,0.24)"
+      },
+      {
+        "trait_type": "Background Color",
+        "value": "#0084ff"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(255,25,0,0.08)"
+      }
+    ],
+    "opensea_url": "",
+    "created_at": "2025-07-02T10:32:11.043735Z",
+    "updated_at": "2025-07-02T10:32:11.043735Z"
+  },
+  {
+    "id": "bioglyph_Glyph-0038-69GJP4",
+    "name": "Glyph-0038-69GJP4",
+    "description": "Exploration of emergent complexity from simple rules, where cellular patterns evolve over time into complex and ever-changing structures",
+    "animation_url": "https://ipfs.io/ipfs/QmXoyvyw2aKUsQdmdw3eH1BQuwJU1eSeUvBNaD48WiNRdc",
+    "preview_gif": "https://ipfs.io/ipfs/Qmd6HKt5v6tQBVmqqaPRyQWm1oDZuiqMEba7CgdHmAnrEo",
+    "viewer_html": "https://ipfs.io/ipfs/QmWcTEohyS4ndi3qiLWnqGHfQ4FtYKTeq5h8GeLuVKR3X4",
+    "metadata_json": "https://ipfs.io/ipfs/QmeJ3gsHMeprVoGV41R75UeTBFbsCWkge9Ujj2EBKXyxUD",
+    "attributes": [
+      {
+        "trait_type": "Grid Size",
+        "value": 45
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 8
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "#fa0032"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(0,255,251,0.24)"
+      },
+      {
+        "trait_type": "Background Color",
+        "value": "#0084ff"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(255,25,0,0.08)"
+      }
+    ],
+    "opensea_url": "",
+    "created_at": "2025-07-02T10:32:59.156832Z",
+    "updated_at": "2025-07-02T10:32:59.156832Z"
+  },
+  {
+    "id": "bioglyph_Glyph-0039-2HT0QZ",
+    "name": "Glyph-0039-2HT0QZ",
+    "description": "Exploration of emergent complexity from simple rules, where cellular patterns evolve over time into complex and ever-changing structures",
+    "animation_url": "https://ipfs.io/ipfs/QmWpPiZAMgdJxNXLPm2T2wF2dtJh2XuqESgURjX2xm22s4",
+    "preview_gif": "https://ipfs.io/ipfs/QmcV3ybhUZCfhwMBgLUFekPBXn5Gsh83rNfgkAnYePpV2E",
+    "viewer_html": "https://ipfs.io/ipfs/QmVyTKZzUFHTAiG8HcV6r8nbvDQdThVGSr1wLRUa1sgG6x",
+    "metadata_json": "https://ipfs.io/ipfs/Qmed5WpcdvLKzBPFwJ9DygDgd3BATztePWBK9MtKNdQLm4",
+    "attributes": [
+      {
+        "trait_type": "Grid Size",
+        "value": 60
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 8
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "#fa0032"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(0,255,251,0.24)"
+      },
+      {
+        "trait_type": "Background Color",
+        "value": "#0084ff"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(255,25,0,0.08)"
+      }
+    ],
+    "opensea_url": "",
+    "created_at": "2025-07-02T10:34:19.152595Z",
+    "updated_at": "2025-07-02T10:34:19.152595Z"
+  },
+  {
+    "id": "bioglyph_Glyph-0040-1P3L6G",
+    "name": "Glyph-0040-1P3L6G",
+    "description": "Exploration of emergent complexity from simple rules, where cellular patterns evolve over time into complex and ever-changing structures",
+    "animation_url": "https://ipfs.io/ipfs/QmVP8EoHd84L3cobo7xYFvaigHTfPCfkuMUBFkBCmBpax4",
+    "preview_gif": "https://ipfs.io/ipfs/QmU2V2C6Er3LiVNTYno9gBkdi8KTL3VMnTAQA2YBSrsBoc",
+    "viewer_html": "https://ipfs.io/ipfs/QmcUuq6pd1y9mho9x4QY5ks5cZLJTdamiDMmAbvWXEYMVy",
+    "metadata_json": "https://ipfs.io/ipfs/QmVsiEs7VHFc9skB9Lqn5bpvsQBpBnhvBLd5HX1TBnmCkR",
+    "attributes": [
+      {
+        "trait_type": "Grid Size",
+        "value": 60
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 8
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "#fa0032"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(0,255,251,0.24)"
+      },
+      {
+        "trait_type": "Background Color",
+        "value": "#0084ff"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(255,25,0,0.08)"
+      }
+    ],
+    "opensea_url": "",
+    "created_at": "2025-07-02T10:35:18.794910Z",
+    "updated_at": "2025-07-02T10:35:18.794910Z"
+  },
+  {
+    "id": "bioglyph_Glyph-0041-4KJPCT",
+    "name": "Glyph-0041-4KJPCT",
+    "description": "Exploration of emergent complexity from simple rules, where cellular patterns evolve over time into complex and ever-changing structures",
+    "animation_url": "https://ipfs.io/ipfs/QmRvZ5vr2Ucvf17Gdvn9La6vEtzZRDC8dem1Qavqkg4f1H",
+    "preview_gif": "https://ipfs.io/ipfs/QmVrfg44PZoSJ8aSW6fXtDHfM4823UmvrUVRHWJj4xis9w",
+    "viewer_html": "https://ipfs.io/ipfs/QmfJXS73eLJmFiQjcwsPGGh2xSRtFyNHmiWozEqhehAjFo",
+    "metadata_json": "https://ipfs.io/ipfs/QmRzEG3vfTyoGvhNVzNtWcW4LmQoT27nkhcDFtLVSbXUY3",
+    "attributes": [
+      {
+        "trait_type": "Grid Size",
+        "value": 60
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 8
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "#fa0032"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(0,255,251,0.24)"
+      },
+      {
+        "trait_type": "Background Color",
+        "value": "#0084ff"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(255,25,0,0.08)"
+      }
+    ],
+    "opensea_url": "",
+    "created_at": "2025-07-02T10:35:54.635376Z",
+    "updated_at": "2025-07-02T10:35:54.635376Z"
+  },
+  {
+    "id": "bioglyph_Glyph-0042-1NV8NZ",
+    "name": "Glyph-0042-1NV8NZ",
+    "description": "Exploration of emergent complexity from simple rules, where cellular patterns evolve over time into complex and ever-changing structures",
+    "animation_url": "https://ipfs.io/ipfs/QmZSnrfYKCrokjWBw5Cu4mtijYL1411B3ugcdoFMP9diq8",
+    "preview_gif": "https://ipfs.io/ipfs/QmSGDqs6t7oH6jBRxWDqH4Fq1jEfsj1UqDvfxWVeFC3tGF",
+    "viewer_html": "https://ipfs.io/ipfs/QmZjH97G6GZNwjijWG73rEPDVgMhCHyuek4XiXnw4GMNKo",
+    "metadata_json": "https://ipfs.io/ipfs/Qmb2TSvd1EFjMamMdwB6vJtrPMMi58N2DzC4LbdkA1P9kM",
+    "attributes": [
+      {
+        "trait_type": "Grid Size",
+        "value": 60
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 8
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "#fa0032"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(0,255,251,0.24)"
+      },
+      {
+        "trait_type": "Background Color",
+        "value": "#0084ff"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(255,25,0,0.08)"
+      }
+    ],
+    "opensea_url": "",
+    "created_at": "2025-07-02T10:36:31.997062Z",
+    "updated_at": "2025-07-02T10:36:31.997062Z"
+  }
 ]
