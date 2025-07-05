@@ -179,7 +179,7 @@
   background: var(--background-dark);
   border-radius: var(--border-radius);
   overflow: hidden;
-  box-shadow: var(--shadow);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* كان داكن جدًا */
   margin-bottom: 1.5rem;
 }
 
@@ -219,13 +219,13 @@
 }
 
 .play-btn {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   background: rgba(255, 0, 64, 0.9);
   border: none;
   border-radius: 50%;
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
   cursor: pointer;
   transition: var(--transition);
   pointer-events: auto;
@@ -238,6 +238,8 @@
 
 .gif-container {
   width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
   aspect-ratio: 1;
 }
 
