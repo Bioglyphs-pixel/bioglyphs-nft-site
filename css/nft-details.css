@@ -186,8 +186,11 @@
 .video-container {
   position: relative;
   width: 100%;
+  max-width: 320px; /* تحجيم العرض */
+  margin: 0 auto;    /* لتوسيط الفيديو */
   aspect-ratio: 1;
 }
+
 
 .nft-video {
   width: 100%;
