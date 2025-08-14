@@ -1,45 +1,45 @@
 [
   {
-  "id": "bioglyph_Glyph-0000",
-  "name": "Glyph-0000",
-  "description": "Exploration of emergent complexity from simple rules\n\nThis simulation ran for 806 generations over 40.3 seconds. \nStarting with an initial cell density of 20.0%, \nit evolved to leave 50 living cells in its final state.\n\nThe artwork captures a moment in this emergent algorithmic process.",
-  "media": {
-    "animation_url": "https://ipfs.io/ipfs/Qme2hUdbn6QKADwzujdJL8DzK4DdKhGFFjE47Uo5R8wbRR",
-    "preview_gif": "https://ipfs.io/ipfs/QmXmXBWtPhWWkeoSfY1nFHGyZQUAgPkU8ptgK2GUHehF3K",
-    "viewer_html": "https://ipfs.io/ipfs/QmTbcZCHH6kSB6r1acnPrnYF5MK37cXWME3ohVcrfTR4dH",
-    "metadata_json": "https://ipfs.io/ipfs/QmNUXfNDTNVcJhM7AG1yNxKHcCLEnZEDg2MbJUFJ3EjA7F"
+    "id": "bioglyph_Glyph-0000",
+    "name": "Glyph-0000",
+    "description": "Exploration of emergent complexity from simple rules\n\nThis simulation ran for 806 generations over 40.3 seconds. \nStarting with an initial cell density of 20.0%, \nit evolved to leave 50 living cells in its final state.\n\nThe artwork captures a moment in this emergent algorithmic process.",
+    "media": {
+      "animation_url": "https://ipfs.io/ipfs/Qme2hUdbn6QKADwzujdJL8DzK4DdKhGFFjE47Uo5R8wbRR",
+      "preview_gif": "https://ipfs.io/ipfs/QmXmXBWtPhWWkeoSfY1nFHGyZQUAgPkU8ptgK2GUHehF3K",
+      "viewer_html": "https://ipfs.io/ipfs/QmTbcZCHH6kSB6r1acnPrnYF5MK37cXWME3ohVcrfTR4dH",
+      "metadata_json": "https://ipfs.io/ipfs/QmNUXfNDTNVcJhM7AG1yNxKHcCLEnZEDg2MbJUFJ3EjA7F"
+    },
+    "attributes": [
+      {
+        "trait_type": "Grid Size",
+        "value": 45
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 6
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "#0000ff"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(255,0,0,0.24)"
+      },
+      {
+        "trait_type": "Background Color",
+        "value": "#2a4641"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(41,219,142,0.08)"
+      }
+    ],
+    "opensea_url": "",
+    "created_at": "2025-08-11T11:36:05.439644Z",
+    "updated_at": "2025-08-11T11:36:05.440208Z"
   },
-  "attributes": [
-    {
-      "trait_type": "Grid Size",
-      "value": 45
-    },
-    {
-      "trait_type": "Cell Size",
-      "value": 6
-    },
-    {
-      "trait_type": "Base Color",
-      "value": "#0000ff"
-    },
-    {
-      "trait_type": "Halo Color",
-      "value": "rgba(255,0,0,0.24)"
-    },
-    {
-      "trait_type": "Background Color",
-      "value": "#2a4641"
-    },
-    {
-      "trait_type": "Particle Color",
-      "value": "rgba(41,219,142,0.08)"
-    }
-  ],
-  "opensea_url": "https://opensea.io/item/matic/0x2a6982d66446be37ce8d945bcee82605ba739f83/0",
-  "created_at": "2025-08-11T11:36:05.439644Z",
-  "updated_at": "2025-08-11T11:36:05.440208Z"
-	},
-	{
+  {
     "id": "bioglyph_Glyph-0001",
     "name": "Glyph-0001",
     "description": "Exploration of emergent complexity from simple rules\n\nThis simulation ran for 571 generations over 28.55 seconds. \nStarting with an initial cell density of 20.0%, \nit evolved to leave 55 living cells in its final state.\n\nThe artwork captures a moment in this emergent algorithmic process.",
@@ -75,7 +75,7 @@
         "value": "rgba(0,255,204,0.08)"
       }
     ],
-    "opensea_url": "https://opensea.io/item/matic/0x2a6982d66446be37ce8d945bcee82605ba739f83/1",
+    "opensea_url": "",
     "created_at": "2025-08-11T21:23:53.063992Z",
     "updated_at": "2025-08-11T21:23:53.066618Z"
   },
@@ -115,7 +115,7 @@
         "value": "rgba(0,255,204,0.08)"
       }
     ],
-    "opensea_url": "https://opensea.io/item/matic/0x2a6982d66446be37ce8d945bcee82605ba739f83/2",
+    "opensea_url": "",
     "created_at": "2025-08-11T21:24:08.047152Z",
     "updated_at": "2025-08-11T21:24:08.047187Z"
   },
@@ -155,7 +155,7 @@
         "value": "rgba(0,255,204,0.08)"
       }
     ],
-    "opensea_url": "https://opensea.io/item/matic/0x2a6982d66446be37ce8d945bcee82605ba739f83/3",
+    "opensea_url": "",
     "created_at": "2025-08-11T21:24:20.056649Z",
     "updated_at": "2025-08-11T21:24:20.056672Z"
   },
@@ -195,7 +195,7 @@
         "value": "rgba(0,255,204,0.08)"
       }
     ],
-    "opensea_url": "https://opensea.io/item/matic/0x2a6982d66446be37ce8d945bcee82605ba739f83/4",
+    "opensea_url": "",
     "created_at": "2025-08-11T21:24:36.416568Z",
     "updated_at": "2025-08-11T21:24:36.416600Z"
   },
@@ -235,7 +235,7 @@
         "value": "rgba(0,255,225,0.08)"
       }
     ],
-    "opensea_url": "https://opensea.io/item/matic/0x2a6982d66446be37ce8d945bcee82605ba739f83/5",
+    "opensea_url": "",
     "created_at": "2025-08-11T21:27:07.568380Z",
     "updated_at": "2025-08-11T21:27:07.568399Z"
   },
@@ -275,7 +275,7 @@
         "value": "rgba(30,255,0,0.08)"
       }
     ],
-    "opensea_url": "https://opensea.io/item/matic/0x2a6982d66446be37ce8d945bcee82605ba739f83/6",
+    "opensea_url": "",
     "created_at": "2025-08-12T22:51:19.842698Z",
     "updated_at": "2025-08-12T22:51:19.845630Z"
   },
@@ -315,7 +315,7 @@
         "value": "rgba(30,255,0,0.08)"
       }
     ],
-    "opensea_url": "https://opensea.io/item/matic/0x2a6982d66446be37ce8d945bcee82605ba739f83/7",
+    "opensea_url": "",
     "created_at": "2025-08-12T22:51:40.369918Z",
     "updated_at": "2025-08-12T22:51:40.369941Z"
   },
@@ -355,7 +355,7 @@
         "value": "rgba(30,255,0,0.08)"
       }
     ],
-    "opensea_url": "https://opensea.io/item/matic/0x2a6982d66446be37ce8d945bcee82605ba739f83/8",
+    "opensea_url": "",
     "created_at": "2025-08-12T22:52:01.175983Z",
     "updated_at": "2025-08-12T22:52:01.176019Z"
   },
@@ -395,7 +395,7 @@
         "value": "rgba(30,255,0,0.08)"
       }
     ],
-    "opensea_url": "https://opensea.io/item/matic/0x2a6982d66446be37ce8d945bcee82605ba739f83/9",
+    "opensea_url": "",
     "created_at": "2025-08-12T22:52:38.488085Z",
     "updated_at": "2025-08-12T22:52:38.488116Z"
   },
@@ -435,7 +435,7 @@
         "value": "rgba(251,0,255,0.08)"
       }
     ],
-    "opensea_url": "https://opensea.io/item/matic/0x2a6982d66446be37ce8d945bcee82605ba739f83/10",
+    "opensea_url": "",
     "created_at": "2025-08-12T22:53:08.126123Z",
     "updated_at": "2025-08-12T22:53:08.126152Z"
   },
@@ -475,7 +475,7 @@
         "value": "rgba(251,0,255,0.08)"
       }
     ],
-    "opensea_url": "https://opensea.io/item/matic/0x2a6982d66446be37ce8d945bcee82605ba739f83/11",
+    "opensea_url": "",
     "created_at": "2025-08-12T22:53:27.441610Z",
     "updated_at": "2025-08-12T22:53:27.441632Z"
   },
@@ -515,8 +515,328 @@
         "value": "rgba(0,255,238,0.08)"
       }
     ],
-    "opensea_url": "https://opensea.io/item/matic/0x2a6982d66446be37ce8d945bcee82605ba739f83/12",
+    "opensea_url": "",
     "created_at": "2025-08-12T22:53:46.848167Z",
     "updated_at": "2025-08-12T22:53:46.848189Z"
+  },
+  {
+    "id": "bioglyph_Glyph-0013",
+    "name": "Glyph-0013",
+    "description": "Exploration of emergent complexity from simple rules\n\nThis simulation ran for 1343 generations over 67.15 seconds. \nStarting with an initial cell density of 20.0%, \nit evolved to leave 31 living cells in its final state.\n\nThe artwork captures a moment in this emergent algorithmic process.",
+    "media": {
+      "animation_url": "https://ipfs.io/ipfs/QmeeVEkQvDsuAjdeoKpFJpXZkbGBTdkg3hFDMCYVYYW2yQ",
+      "preview_gif": "https://ipfs.io/ipfs/QmbEEQUJ77Lh7S5yyohwpR8WHTif1fPKwLdM7bgnCipaQx",
+      "viewer_html": "https://ipfs.io/ipfs/QmXz94bWF8rQ8bH2cGaFwbL2LnTKBZBLzHmJVmbBgHFFuq",
+      "metadata_json": "https://ipfs.io/ipfs/QmT32wpuU3EejmcDM6oh9MrfRVQJsXqEmRdyZTzim3AR5F"
+    },
+    "attributes": [
+      {
+        "trait_type": "Grid Size",
+        "value": 35
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 6
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "#ff0000"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(255,0,0,0.24)"
+      },
+      {
+        "trait_type": "Background Color",
+        "value": "#1e1e1e"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(255,255,255,0.08)"
+      }
+    ],
+    "opensea_url": "",
+    "created_at": "2025-08-14T14:16:00.490814Z",
+    "updated_at": "2025-08-14T14:16:00.492448Z"
+  },
+  {
+    "id": "bioglyph_Glyph-0014",
+    "name": "Glyph-0014",
+    "description": "Exploration of emergent complexity from simple rules\n\nThis simulation ran for 534 generations over 26.7 seconds. \nStarting with an initial cell density of 20.0%, \nit evolved to leave 50 living cells in its final state.\n\nThe artwork captures a moment in this emergent algorithmic process.",
+    "media": {
+      "animation_url": "https://ipfs.io/ipfs/QmZa6QU4gjcZnoiEqJdmuRRJ6EGxjHkp1XU2MJraFheNv1",
+      "preview_gif": "https://ipfs.io/ipfs/QmfRcumYqaH44vNmrqEpNziU1JpSTswmckupgCabHgXPge",
+      "viewer_html": "https://ipfs.io/ipfs/Qme77L1WYFAczL6cxFHjpS19bih7gQpbYJkjmMA5HhjQ2w",
+      "metadata_json": "https://ipfs.io/ipfs/QmT9g46wn8g7WAr1APGdZMeZwJv3XL4rQZNs5V2qh15Q5z"
+    },
+    "attributes": [
+      {
+        "trait_type": "Grid Size",
+        "value": 35
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 6
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "#000000"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(255,0,0,0.24)"
+      },
+      {
+        "trait_type": "Background Color",
+        "value": "#315e5b"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(255,255,255,0.08)"
+      }
+    ],
+    "opensea_url": "",
+    "created_at": "2025-08-14T14:16:14.905588Z",
+    "updated_at": "2025-08-14T14:16:14.905620Z"
+  },
+  {
+    "id": "bioglyph_Glyph-0015",
+    "name": "Glyph-0015",
+    "description": "Exploration of emergent complexity from simple rules\n\nThis simulation ran for 1338 generations over 66.9 seconds. \nStarting with an initial cell density of 20.0%, \nit evolved to leave 51 living cells in its final state.\n\nThe artwork captures a moment in this emergent algorithmic process.",
+    "media": {
+      "animation_url": "https://ipfs.io/ipfs/Qmaqx8mTG6fSRq1gHViAUoThuM9zgtPsW1WDNwu8rVspTM",
+      "preview_gif": "https://ipfs.io/ipfs/Qmb7ijSyCGt8xkFnpA6ejkRLUy7sDM5BPynUAvfZJwCZrq",
+      "viewer_html": "https://ipfs.io/ipfs/QmRrrftQdBpXf1eo5ktsb34Mi7sweJLEwRQAno3uC9wtft",
+      "metadata_json": "https://ipfs.io/ipfs/Qma73iXuKFE7ERJPnqnNqRYc78ppnZawidNWrFuupLyi8r"
+    },
+    "attributes": [
+      {
+        "trait_type": "Grid Size",
+        "value": 55
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 6
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "#000000"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(255,0,0,0.24)"
+      },
+      {
+        "trait_type": "Background Color",
+        "value": "#a38f9a"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(0,240,192,0.08)"
+      }
+    ],
+    "opensea_url": "",
+    "created_at": "2025-08-14T14:16:34.092760Z",
+    "updated_at": "2025-08-14T14:16:34.092802Z"
+  },
+  {
+    "id": "bioglyph_Glyph-0016",
+    "name": "Glyph-0016",
+    "description": "Exploration of emergent complexity from simple rules\n\nThis simulation ran for 965 generations over 48.25 seconds. \nStarting with an initial cell density of 20.0%, \nit evolved to leave 95 living cells in its final state.\n\nThe artwork captures a moment in this emergent algorithmic process.",
+    "media": {
+      "animation_url": "https://ipfs.io/ipfs/QmWxSSYEZMbe2Y91mKVqThMNBeKnPWURAv9SYgfYRTYCkr",
+      "preview_gif": "https://ipfs.io/ipfs/QmRFEoo7kSzv7RsYfbvqG3wMSGa5eubbCoFgHTgf89gSDb",
+      "viewer_html": "https://ipfs.io/ipfs/QmXvCWqQYPer8A4r8oaJiXvY3y7Zwnee7hmoh6b1VWi4HM",
+      "metadata_json": "https://ipfs.io/ipfs/QmSAGmr1bnGNE24n9dvFDwuPM2Q5Wesx2kCwxaKYbsaiPy"
+    },
+    "attributes": [
+      {
+        "trait_type": "Grid Size",
+        "value": 60
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 4
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "#000000"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(255,0,0,0.24)"
+      },
+      {
+        "trait_type": "Background Color",
+        "value": "#a38f9a"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(0,240,192,0.08)"
+      }
+    ],
+    "opensea_url": "",
+    "created_at": "2025-08-14T14:16:52.678619Z",
+    "updated_at": "2025-08-14T14:16:52.678645Z"
+  },
+  {
+    "id": "bioglyph_Glyph-0017",
+    "name": "Glyph-0017",
+    "description": "Exploration of emergent complexity from simple rules\n\nThis simulation ran for 1284 generations over 64.2 seconds. \nStarting with an initial cell density of 20.0%, \nit evolved to leave 74 living cells in its final state.\n\nThe artwork captures a moment in this emergent algorithmic process.",
+    "media": {
+      "animation_url": "https://ipfs.io/ipfs/QmdGz7tjMp9pDA8DgSs7EsdizRn47ekCoNBC2rU7tiHUHJ",
+      "preview_gif": "https://ipfs.io/ipfs/QmbWc3vjTukFotTVF5ovbLsCoxqEALQtcitMxD4APe5T8N",
+      "viewer_html": "https://ipfs.io/ipfs/QmZYj5ZfHJxMhJd2dvkjDzHCbvBT5ju1JAxw16tobsYckA",
+      "metadata_json": "https://ipfs.io/ipfs/QmVTstc197iX7sN9MgwvEvtgokUyExdff4k8J9RNteDwep"
+    },
+    "attributes": [
+      {
+        "trait_type": "Grid Size",
+        "value": 60
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 4
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "#025ced"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(255,0,187,0.24)"
+      },
+      {
+        "trait_type": "Background Color",
+        "value": "#dd3692"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(14,182,12,0.08)"
+      }
+    ],
+    "opensea_url": "",
+    "created_at": "2025-08-14T14:17:12.528615Z",
+    "updated_at": "2025-08-14T14:17:12.528649Z"
+  },
+  {
+    "id": "bioglyph_Glyph-0018",
+    "name": "Glyph-0018",
+    "description": "Exploration of emergent complexity from simple rules\n\nThis simulation ran for 3319 generations over 165.95 seconds. \nStarting with an initial cell density of 20.0%, \nit evolved to leave 194 living cells in its final state.\n\nThe artwork captures a moment in this emergent algorithmic process.",
+    "media": {
+      "animation_url": "https://ipfs.io/ipfs/QmSANFPM8G71yb6Eg97XNdpQp6qTGrdZVwfSN2ux4v5BDu",
+      "preview_gif": "https://ipfs.io/ipfs/QmUcf2UFz9tP5eke3q6p4rKAyJmpL1JL4Bz1WPwZwRdo9x",
+      "viewer_html": "https://ipfs.io/ipfs/QmYNgcHKBfDdak69r7E6mq5K4ZconehWypFhygStiwK8RU",
+      "metadata_json": "https://ipfs.io/ipfs/Qmerg2o2SMgfzziQPSswzRPVTyK2U9RAXpp4oc2pGRN7Tk"
+    },
+    "attributes": [
+      {
+        "trait_type": "Grid Size",
+        "value": 80
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 4
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "#ed0202"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(0,145,255,0.24)"
+      },
+      {
+        "trait_type": "Background Color",
+        "value": "#36dda5"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(255,0,102,0.08)"
+      }
+    ],
+    "opensea_url": "",
+    "created_at": "2025-08-14T14:17:45.785442Z",
+    "updated_at": "2025-08-14T14:17:45.785476Z"
+  },
+  {
+    "id": "bioglyph_Glyph-0019",
+    "name": "Glyph-0019",
+    "description": "Exploration of emergent complexity from simple rules\n\nThis simulation ran for 670 generations over 33.5 seconds. \nStarting with an initial cell density of 20.0%, \nit evolved to leave 178 living cells in its final state.\n\nThe artwork captures a moment in this emergent algorithmic process.",
+    "media": {
+      "animation_url": "https://ipfs.io/ipfs/QmZxpPx6fCSfTF7YouvXX4rjz5yE4UDcanwA2mHw3ribcC",
+      "preview_gif": "https://ipfs.io/ipfs/QmT7t4SzFEJaf59dmtqrBdgieQXEHUw6MvG2JR5YaQEVcw",
+      "viewer_html": "https://ipfs.io/ipfs/QmUM8hDsFCBwNrXMWvR3uN4mqhpTAXYGM8BRPnffWxet3D",
+      "metadata_json": "https://ipfs.io/ipfs/QmRLBDnhuuRYqWDjanoBRtSugsyCkUuMRvHEg1XfayAByz"
+    },
+    "attributes": [
+      {
+        "trait_type": "Grid Size",
+        "value": 80
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 4
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "#6c02ed"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(0,145,255,0.24)"
+      },
+      {
+        "trait_type": "Background Color",
+        "value": "#36dda5"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(255,0,102,0.08)"
+      }
+    ],
+    "opensea_url": "",
+    "created_at": "2025-08-14T14:18:01.614585Z",
+    "updated_at": "2025-08-14T14:18:01.614616Z"
+  },
+  {
+    "id": "bioglyph_Glyph-0020",
+    "name": "Glyph-0020",
+    "description": "Exploration of emergent complexity from simple rules\n\nThis simulation ran for 2864 generations over 143.2 seconds. \nStarting with an initial cell density of 20.0%, \nit evolved to leave 188 living cells in its final state.\n\nThe artwork captures a moment in this emergent algorithmic process.",
+    "media": {
+      "animation_url": "https://ipfs.io/ipfs/QmUPF7mTmiF2tCiGCDpgUU1y4PLCF3JxTjLtDiPdTMnBEG",
+      "preview_gif": "https://ipfs.io/ipfs/QmTbPqdZuos7dAVLtbyKHTCjgqUSpmc84WdZtQGgZbTf6J",
+      "viewer_html": "https://ipfs.io/ipfs/QmRJsQJcKLReMRY5LdWt6bAzcsjUq6G4MSWXpo2W4xKAm1",
+      "metadata_json": "https://ipfs.io/ipfs/QmTFehYbN9PXDchcRfiqCzFxK8vNWZRYbEM3hZuwhhUymB"
+    },
+    "attributes": [
+      {
+        "trait_type": "Grid Size",
+        "value": 80
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 4
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "#000000"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(255,0,162,0.24)"
+      },
+      {
+        "trait_type": "Background Color",
+        "value": "#3936dd"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(255,0,0,0.08)"
+      }
+    ],
+    "opensea_url": "",
+    "created_at": "2025-08-14T14:18:35.218762Z",
+    "updated_at": "2025-08-14T14:18:35.218793Z"
   }
 ]
