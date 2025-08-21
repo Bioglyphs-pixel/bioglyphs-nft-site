@@ -1362,5 +1362,93 @@
     "opensea_url": "https://opensea.io/assets/matic/0x2A6982D66446bE37Ce8d945bCEe82605bA739f83/34",
     "created_at": "2025-08-20T21:59:10.025306Z",
     "updated_at": "2025-08-20T21:59:10.025339Z"
+  },
+  {
+  "id": "bioglyph_Glyph-0035",
+  "name": "Glyph-0035",
+  "description": "Exploration of emergent complexity from simple rules\nThis simulation ran for 534 generations. Initial density: 20.0%. Remaining cells: 76.\nThe pattern entered an oscillating (period 2) state with 76 living cells.",
+  "media": {
+    "animation_url": "https://ipfs.io/ipfs/QmUrgwT8kLueikx4oC9Cg8f8ZZmZd1mthYXtD3EJ1ByUfc",
+    "preview_gif": "https://ipfs.io/ipfs/QmXCfjUyrRhs3YSCnu3pBeoMxoStQDnPjt4sPCm5WoNxq3",
+    "viewer_html": "https://ipfs.io/ipfs/QmbPUDvNMxUb9gQoyAcyYSnj2kfq9hX4wSZ5Vb1HwhCxJY",
+    "metadata_json": "https://ipfs.io/ipfs/QmdCuhTqGufEUjoZc8piLi75RXmJRrRt97JqVJ4NEWqwAN"
+  },
+  "attributes": [
+    {
+      "trait_type": "Style",
+      "value": "Oscillating"
+    },
+    {
+      "trait_type": "Grid Size",
+      "value": 55
+    },
+    {
+      "trait_type": "Cell Size",
+      "value": 6
+    },
+    {
+      "trait_type": "Base Color",
+      "value": "#000000"
+    },
+    {
+      "trait_type": "Halo Color",
+      "value": "rgba(0,0,0,0.24)"
+    },
+    {
+      "trait_type": "Particle Color",
+      "value": "rgba(0,76,255,0.08)"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "#ffffff"
+    }
+  ],
+  "opensea_url": "https://opensea.io/assets/matic/0x2A6982D66446bE37Ce8d945bCEe82605bA739f83/35",
+  "created_at": "2025-08-20T21:47:44.725049Z",
+  "updated_at": "2025-08-20T21:47:44.725668Z"
+},
+  {
+    "id": "bioglyph_Glyph-0036",
+    "name": "Glyph-0036",
+    "description": "Exploration of emergent complexity from simple rules\nThis simulation ran for 1470 generations over 0 seconds.\nStarting with an initial cell density of 20.0%,\nit evolved to leave 85 living cells in its final state.\nThe pattern entered an oscillating (period 2) state with 85 living cells.",
+    "media": {
+      "animation_url": "https://ipfs.io/ipfs/QmdSF1X3d1kzbhLM4ghnisUYp5kck4g3xRRS27iA1o86E3",
+      "preview_gif": "https://ipfs.io/ipfs/QmX7QSUqNX2of6yqipfr3DmaDgqmPFqxhgNHNE474VvzpR",
+      "viewer_html": "https://ipfs.io/ipfs/QmdPAUaqDF9Sk7aEWTMk5PmHsHm2iqdsDbc5FnMsF4EDXw",
+      "metadata_json": "https://ipfs.io/ipfs/QmUWVyRG1D9D4yFHfsQyqTWZvk1NyuxMzGkxA5vJW6EFnn"
+    },
+    "attributes": [
+      {
+        "trait_type": "Style",
+        "value": "Oscillating"
+      },
+      {
+        "trait_type": "Grid Size",
+        "value": 55
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 6
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "#000000"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(0,0,0,0.24)"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(0,76,255,0.08)"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Noise"
+      }
+    ],
+    "opensea_url": "https://opensea.io/assets/matic/0x2A6982D66446bE37Ce8d945bCEe82605bA739f83/0",
+    "created_at": "2025-08-20T23:02:57.310465Z",
+    "updated_at": "2025-08-20T23:02:57.310851Z"
   }
 ]
