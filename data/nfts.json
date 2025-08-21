@@ -1364,49 +1364,49 @@
     "updated_at": "2025-08-20T21:59:10.025339Z"
   },
   {
-  "id": "bioglyph_Glyph-0035",
-  "name": "Glyph-0035",
-  "description": "Exploration of emergent complexity from simple rules\nThis simulation ran for 534 generations. Initial density: 20.0%. Remaining cells: 76.\nThe pattern entered an oscillating (period 2) state with 76 living cells.",
-  "media": {
-    "animation_url": "https://ipfs.io/ipfs/QmUrgwT8kLueikx4oC9Cg8f8ZZmZd1mthYXtD3EJ1ByUfc",
-    "preview_gif": "https://ipfs.io/ipfs/QmXCfjUyrRhs3YSCnu3pBeoMxoStQDnPjt4sPCm5WoNxq3",
-    "viewer_html": "https://ipfs.io/ipfs/QmbPUDvNMxUb9gQoyAcyYSnj2kfq9hX4wSZ5Vb1HwhCxJY",
-    "metadata_json": "https://ipfs.io/ipfs/QmdCuhTqGufEUjoZc8piLi75RXmJRrRt97JqVJ4NEWqwAN"
+    "id": "bioglyph_Glyph-0035",
+    "name": "Glyph-0035",
+    "description": "Exploration of emergent complexity from simple rules\nThis simulation ran for 534 generations. Initial density: 20.0%. Remaining cells: 76.\nThe pattern entered an oscillating (period 2) state with 76 living cells.",
+    "media": {
+      "animation_url": "https://ipfs.io/ipfs/QmUrgwT8kLueikx4oC9Cg8f8ZZmZd1mthYXtD3EJ1ByUfc",
+      "preview_gif": "https://ipfs.io/ipfs/QmXCfjUyrRhs3YSCnu3pBeoMxoStQDnPjt4sPCm5WoNxq3",
+      "viewer_html": "https://ipfs.io/ipfs/QmbPUDvNMxUb9gQoyAcyYSnj2kfq9hX4wSZ5Vb1HwhCxJY",
+      "metadata_json": "https://ipfs.io/ipfs/QmdCuhTqGufEUjoZc8piLi75RXmJRrRt97JqVJ4NEWqwAN"
+    },
+    "attributes": [
+      {
+        "trait_type": "Style",
+        "value": "Oscillating"
+      },
+      {
+        "trait_type": "Grid Size",
+        "value": 55
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 6
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "#000000"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(0,0,0,0.24)"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(0,76,255,0.08)"
+      },
+      {
+        "trait_type": "Background Color",
+        "value": "#ffffff"
+      }
+    ],
+    "opensea_url": "https://opensea.io/assets/matic/0x2A6982D66446bE37Ce8d945bCEe82605bA739f83/35",
+    "created_at": "2025-08-20T21:47:44.725049Z",
+    "updated_at": "2025-08-20T21:47:44.725668Z"
   },
-  "attributes": [
-    {
-      "trait_type": "Style",
-      "value": "Oscillating"
-    },
-    {
-      "trait_type": "Grid Size",
-      "value": 55
-    },
-    {
-      "trait_type": "Cell Size",
-      "value": 6
-    },
-    {
-      "trait_type": "Base Color",
-      "value": "#000000"
-    },
-    {
-      "trait_type": "Halo Color",
-      "value": "rgba(0,0,0,0.24)"
-    },
-    {
-      "trait_type": "Particle Color",
-      "value": "rgba(0,76,255,0.08)"
-    },
-    {
-      "trait_type": "Background Color",
-      "value": "#ffffff"
-    }
-  ],
-  "opensea_url": "https://opensea.io/assets/matic/0x2A6982D66446bE37Ce8d945bCEe82605bA739f83/35",
-  "created_at": "2025-08-20T21:47:44.725049Z",
-  "updated_at": "2025-08-20T21:47:44.725668Z"
-},
   {
     "id": "bioglyph_Glyph-0036",
     "name": "Glyph-0036",
@@ -1450,5 +1450,49 @@
     "opensea_url": "https://opensea.io/assets/matic/0x2A6982D66446bE37Ce8d945bCEe82605bA739f83/0",
     "created_at": "2025-08-20T23:02:57.310465Z",
     "updated_at": "2025-08-20T23:02:57.310851Z"
+  },
+  {
+    "id": "bioglyph_Glyph-0037",
+    "name": "Glyph-0037",
+    "description": "Exploration of emergent complexity from simple rules\n\nThis simulation ran for 2756 generations over 137.8 seconds. \nStarting with an initial cell density of 20.0%, \nit evolved to leave 185 living cells in its final state.\n\nThe artwork captures a moment in this emergent algorithmic process.\nThe pattern entered an oscillating (period 2) state with 185 living cells.",
+    "media": {
+      "animation_url": "https://ipfs.io/ipfs/QmWBzbzq5vjN1LarFrUp1AEPBr9JVQcQKS8r9pKichKNSg",
+      "preview_gif": "https://ipfs.io/ipfs/QmdJsadsCsfpDEx7E4UvBbB7vjFvsUBXQ2M1vzCjkVcJNs",
+      "viewer_html": "https://ipfs.io/ipfs/QmSW3wKAEcnGz1VSR8o89XA3wiPRiXNvJc8WzpQZesSPdv",
+      "metadata_json": "https://ipfs.io/ipfs/QmWtVJuFxJfSLa9hCq5KFhkQGeggMiTaxutXC76pLBfQnh"
+    },
+    "attributes": [
+      {
+        "trait_type": "Style",
+        "value": "Oscillating"
+      },
+      {
+        "trait_type": "Grid Size",
+        "value": 80
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 6
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "#0008fa"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(34,135,101,0.24)"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(100,2,247,0.08)"
+      },
+      {
+        "trait_type": "Background Color",
+        "value": "#1e1e1e"
+      }
+    ],
+    "opensea_url": "https://opensea.io/assets/matic/0x2A6982D66446bE37Ce8d945bCEe82605bA739f83/37",
+    "created_at": "2025-08-21T15:42:11.601252Z",
+    "updated_at": "2025-08-21T15:42:11.602125Z"
   }
 ]
