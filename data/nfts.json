@@ -4890,5 +4890,57 @@
     "opensea_url": "https://opensea.io/assets/matic/0x2A6982D66446bE37Ce8d945bCEe82605bA739f83/112",
     "created_at": "2025-09-27T19:08:10.648663Z",
     "updated_at": "2025-09-27T19:08:10.648719Z"
+  },
+  {
+    "id": "bioglyph_Glyph-0113",
+    "name": "Glyph-0113",
+    "description": "Exploration of emergent complexity from simple rules\n\nThis simulation ran for 515 generations over 25.75 seconds. \nStarting with an initial cell density of 20.0%, \nit evolved to leave 11 living cells in its final state.\n\nThe artwork captures a moment in this emergent algorithmic process.\nThe pattern became stable with 11 living cells.",
+    "media": {
+      "animation_url": "https://ipfs.io/ipfs/QmYLPRhzGwQMvehjRDvpDRBYLXvEMdWnMcMfqha7Hp6HSp",
+      "preview_gif": "https://ipfs.io/ipfs/QmU8MbHzLu2CFmpgy4gRyWSoMPvTZyjytFyH6wkitfnZXP",
+      "viewer_html": "https://ipfs.io/ipfs/QmUtmBiJXKG9CwwKszBkcGUNBWDbNLgz5cPsSCqvB65R6j",
+      "metadata_json": "https://ipfs.io/ipfs/QmU2M2MqQ1UbrgCAiyHgtSHYY51vK2Vqzeutwtv82Lixsq"
+    },
+    "attributes": [
+      {
+        "trait_type": "Style",
+        "value": "Stable"
+      },
+      {
+        "trait_type": "Grid Size",
+        "value": 25
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 12
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "Crimson"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(111.51824462124057, 143.36841422822476, 47.235107616528516, 0.3)"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(163.3769457922027, 245.70461932130746, 136.1915275139214, 0.1)"
+      },
+      {
+        "trait_type": "Generations",
+        "value": 515
+      },
+      {
+        "trait_type": "Living Cells",
+        "value": 11
+      },
+      {
+        "trait_type": "Background",
+        "value": "Noise"
+      }
+    ],
+    "opensea_url": "https://opensea.io/assets/matic/0x2A6982D66446bE37Ce8d945bCEe82605bA739f83/113",
+    "created_at": "2025-10-01T20:14:48.755210Z",
+    "updated_at": "2025-10-01T20:14:48.756299Z"
   }
 ]
