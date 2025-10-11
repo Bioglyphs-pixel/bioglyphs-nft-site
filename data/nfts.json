@@ -4994,5 +4994,57 @@
     "opensea_url": "https://opensea.io/assets/matic/0x2A6982D66446bE37Ce8d945bCEe82605bA739f83/114",
     "created_at": "2025-10-11T22:48:18.579919Z",
     "updated_at": "2025-10-11T22:48:18.581525Z"
+  },
+  {
+    "id": "bioglyph_Glyph-0115",
+    "name": "Glyph-0115",
+    "description": "Exploration of emergent complexity from simple rules\n\nThis simulation ran for 638 generations over 31.9 seconds. \nStarting with an initial cell density of 20.0%, \nit evolved to leave 15 living cells in its final state.\n\nThe artwork captures a moment in this emergent algorithmic process.\nThe pattern entered an oscillating (period 2) state with 15 living cells.",
+    "media": {
+      "animation_url": "https://ipfs.io/ipfs/QmYkuEHw47iJcY2vy995NJTiipZG2PfHLDv34f2FMcN3xB",
+      "preview_gif": "https://ipfs.io/ipfs/QmQHnwdHSzRokddG6er6FyxdK4XtM5WmiHTSiYuWupQAfe",
+      "viewer_html": "https://ipfs.io/ipfs/QmNsaftDQ4uzBgpYWRPGrpYfxqHYpCbgQRL2kAQGdogE9J",
+      "metadata_json": "https://ipfs.io/ipfs/QmWWkTfMg5iYgkQkChpXaEUPgXwxEWC3sHhq7NxAHqwEBt"
+    },
+    "attributes": [
+      {
+        "trait_type": "Style",
+        "value": "Oscillating"
+      },
+      {
+        "trait_type": "Grid Size",
+        "value": 24
+      },
+      {
+        "trait_type": "Cell Size",
+        "value": 12
+      },
+      {
+        "trait_type": "Base Color",
+        "value": "Gold"
+      },
+      {
+        "trait_type": "Halo Color",
+        "value": "rgba(53.87795109752699, 42.60257921941124, 31.765627047523097, 0.3)"
+      },
+      {
+        "trait_type": "Particle Color",
+        "value": "rgba(87.08231006946417, 243.56497672878197, 65.40245179803975, 0.1)"
+      },
+      {
+        "trait_type": "Generations",
+        "value": 638
+      },
+      {
+        "trait_type": "Living Cells",
+        "value": 15
+      },
+      {
+        "trait_type": "Background Color",
+        "value": "Sienna"
+      }
+    ],
+    "opensea_url": "https://opensea.io/assets/matic/0x2A6982D66446bE37Ce8d945bCEe82605bA739f83/115",
+    "created_at": "2025-10-11T23:00:08.434677Z",
+    "updated_at": "2025-10-11T23:00:08.435446Z"
   }
 ]
